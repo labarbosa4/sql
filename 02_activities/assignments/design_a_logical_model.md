@@ -15,15 +15,22 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 
 Bonus: Are there privacy implications to this, why or why not?
 ```
-Your answer...
+•	Type 1: In this case, these privacy concerns are minimized since only the current address is stored, meaning less sensitive data is retained. However, securing this data properly and complying with retention policies is still crucial to avoid keeping unnecessary information.
+•	Type 2: this architecture can raise more significant privacy issues because it retains a history of past addresses, which could be seen as sensitive personal information. Regulations usually emphasize data minimization, so holding on to outdated addresses without a valid reason could be problematic. Additionally, customers might request that old data be deleted, which would require careful management.
+Overall, the privacy policy must clearly state how long address data is kept, and strong security measures should be in place to safeguard personal information.
 ```
 
 ## Question 4
 Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 
-Highlight at least two differences between it and your ERD. Would you change anything in yours?
+Highlight at least two differences between it and your ERD. 
 ```
-Your answer...
+•	The AdventureWorks OLTP Schema includes tables representing various areas of the company, which can be applied to larger databases and scaled to bigger production companies. This schema enables the distribution of data to achieve diverse objectives, such as cost control, inventory management, and ensuring compliance with human resources privacy policies.
+•	The AdventureWorks schema also includes information about the storage of payment methods, which represents a significant responsibility for the company. Ensuring secure handling of this sensitive information will require extra precautions, including robust encryption, compliance with data protection regulations, and regular audits.
+
+Would you change anything in yours?
+
+Something I would have liked to add to my ERD is a clear division by functional areas. This would make the diagram more intuitive for users or viewers, allowing them to easily identify different sections of the database, such as sales, inventory, and customer data. Such an approach would also reduce guesswork and improve efficiency when working with the database by making relationships and data flows more apparent.
 ```
 
 # Criteria
