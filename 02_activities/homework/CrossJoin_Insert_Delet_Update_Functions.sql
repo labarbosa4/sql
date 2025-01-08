@@ -15,7 +15,7 @@ CROSS JOIN total_customers tc
 GROUP BY v.vendor_name, p.product_name;
 
 
--- INTERT 
+-- INSERT 
 
 CREATE TABLE product_units AS
 SELECT *, CURRENT_TIMESTAMP AS snapshot_timestamp
