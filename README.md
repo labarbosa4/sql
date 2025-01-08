@@ -42,6 +42,7 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 There is one assignment and six mandatory homework exercises. Class Participation is considered in the evaluation of the  module. 
 
 1. [Design a Logical Model](./02_activities/assignments/design_a_logical_model.md)
+2. Solution (.02_activities/assignments/Entity-Relationship Diagrams.pdf)
 
 ## Contacts
 
